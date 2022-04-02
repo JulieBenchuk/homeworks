@@ -1,0 +1,50 @@
+.message {
+    background-color: greenyellow;
+    width: 300px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+    "avatar messageInner messageInner";
+}
+
+.avatar img {
+    width: 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.messageInner {
+    width: 220px;
+    height: 90px;
+    background-color: #026502;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.name {
+    font-size: large;
+    position: absolute;
+    color: #884fc2;
+    margin: 20px 20px;
+}
+
+.current_message {
+    position: absolute;
+    color: #94ce5e;
+    margin: 40px 20px;
+}
+
+.time {
+    position: absolute;
+    color: #5f865f;
+    margin: 50px 180px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #026502;
+    border-left: 15px solid transparent;
+    margin-top: 80px;
+}
