@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="added HW1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="created GitHub page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +56,7 @@
       <workItem from="1648897017387" duration="8322000" />
       <workItem from="1648905721666" duration="2588000" />
       <workItem from="1648930951334" duration="409000" />
-      <workItem from="1649101202717" duration="1241000" />
+      <workItem from="1649101202717" duration="1706000" />
     </task>
     <task id="LOCAL-00001" summary="added HW1">
       <created>1648905383081</created>
@@ -74,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648916420044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created GitHub page">
+      <created>1649103067894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649103067894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added HW1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW1" />
+    <MESSAGE value="created GitHub page" />
+    <option name="LAST_COMMIT_MESSAGE" value="created GitHub page" />
   </component>
 </project>
