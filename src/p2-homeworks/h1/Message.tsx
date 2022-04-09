@@ -19,8 +19,11 @@ function Message(props: MessagePropsType) {
             <span>
                 <div className={classes.messageInner}>
                   <div className={classes.name}>{props.name}</div>
-                  <div className={classes.current_message}>{props.message}</div>
-                    <div className={classes.time}>{props.time}</div>
+                  <div className={classes.current_message}>
+                      {props.message}
+                      <div className={classes.time}>{props.time}</div>
+                  </div>
+
                 </div>
             </span>
         </div>

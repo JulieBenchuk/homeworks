@@ -5,6 +5,7 @@
     display: grid;
     grid-template-areas:
     "avatar messageInner messageInner";
+
 }
 
 .avatar img {
@@ -14,31 +15,42 @@
 }
 
 .messageInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 220px;
     height: 90px;
     background-color: #026502;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 0px;
 
 }
 
 .name {
-    font-size: large;
-    position: absolute;
+    display: flex;
+    margin: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
     color: #884fc2;
-    margin: 20px 20px;
 }
 
 .current_message {
-    position: absolute;
+    display: flex;
+    justify-content: end;
+    max-width: 200px;
     color: #94ce5e;
-    margin: 40px 20px;
+    margin: 10px;
+    word-wrap: break-word;
+
 }
 
 .time {
-    position: absolute;
+    display: flex;
     color: #5f865f;
-    margin: 50px 180px;
+    justify-content: end;
+    padding-top: 10px;
+    padding-left: 5px;
+
 }
 
 .triangle {
@@ -46,5 +58,5 @@
     height: 0;
     border-bottom: 10px solid #026502;
     border-left: 15px solid transparent;
-    margin-top: 80px;
+    margin-top: 90px;
 }
