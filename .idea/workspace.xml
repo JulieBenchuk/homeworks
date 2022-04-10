@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="add GitHub page">
+    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="added second HW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" afterDir="false" />
@@ -65,7 +65,7 @@
       <workItem from="1649101202717" duration="2050000" />
       <workItem from="1649103764740" duration="1060000" />
       <workItem from="1649237945689" duration="1497000" />
-      <workItem from="1649517186248" duration="17633000" />
+      <workItem from="1649517186248" duration="22291000" />
     </task>
     <task id="LOCAL-00001" summary="added HW1">
       <created>1648905383081</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649530488565</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added second HW">
+      <created>1649586517200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649586517200</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +138,7 @@
     <MESSAGE value="created GitHub page" />
     <MESSAGE value="change CSS a little" />
     <MESSAGE value="add GitHub page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add GitHub page" />
+    <MESSAGE value="added second HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="added second HW" />
   </component>
 </project>
