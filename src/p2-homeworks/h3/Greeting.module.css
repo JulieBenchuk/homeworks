@@ -5,6 +5,6 @@ border: 1px solid green;
 
 .error {
     border: 1px solid red;
-    background-color: #fac3c3;
-    box-shadow: 0 0 10px red;
+    background-color: #fad4d4;
+    box-shadow: 0 0 5px red;
 }
