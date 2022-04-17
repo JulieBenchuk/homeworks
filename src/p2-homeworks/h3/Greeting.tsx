@@ -13,17 +13,17 @@ export type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 ) => {
-    const inputClass = name ? s.someClass : s.error // need to fix with (?:)
+    const inputClass = name ? s.someClass : s.error; // need to fix with (?:)
     const onKeyPresHandler = (e: KeyboardEvent<HTMLInputElement>) => {
-        e.key==="Enter" && addUser();
+        e.key === "Enter" && addUser();
     }
 
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass} onKeyPress={onKeyPresHandler}/>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
-            <div>{error}</div>
+            <input placeholder={"Enter your name..."} value={name} onChange={setNameCallback} className={inputClass} onKeyPress={onKeyPresHandler}/>
+            <button className={s.buttonAdd} onClick={addUser}>ADD</button>
+            <span className={s.totalUsers}>{totalUsers}</span>
+            <div className={s.errorMessage}>{error}</div>
         </div>
     )
 }

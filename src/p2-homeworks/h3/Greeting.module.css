@@ -1,10 +1,43 @@
 .someClass {
-border: 1px solid green;
-    background-color: #fbffc1;
+    border: 1px solid #000000;
+    background-color: #ddf1fd;
+    box-shadow: 0 0 5px black;
 }
 
 .error {
     border: 1px solid red;
-    background-color: #fad4d4;
+    background-color: #fddede;
     box-shadow: 0 0 5px red;
+}
+
+.errorMessage {
+    font-family: Dialog;
+    font-size: 20px;
+    width: 220px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.totalUsers {
+    color: #919191;
+    background-color: #ffffff;
+    border: 2px dotted #919191;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 3px;
+    margin: 5px;
+    font-family: Dialog;
+    border-radius: 10px;
+}
+
+.buttonAdd {
+    color: white;
+    background-color: #919191;
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
 }

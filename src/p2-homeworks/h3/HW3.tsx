@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { v1 } from 'uuid'
+import {v1} from 'uuid'
 import GreetingContainer from './GreetingContainer'
 
 
@@ -15,7 +15,7 @@ function HW3() {
 
     const addUserCallback = (name: string) => { // need to fix any
         let newUser = {_id: v1(), name: name}
-        setUsers([newUser,...users]) // need to fix
+        setUsers([newUser, ...users]) // need to fix
     }
 
     return (
