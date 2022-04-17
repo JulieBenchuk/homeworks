@@ -23,7 +23,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     }
     const addUser = (name: string) => {
         name && addUserCallback(name) && alert(`Hellov ${name}!`)
-        !name && setError("Wrong!")
+        !name && setError("Input is invalid!")
         setName("");
     }
     let totalUsers = users.length
