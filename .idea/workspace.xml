@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="added second HW">
+    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="added some CSS to second HW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/HW2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/HW2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/GreetingContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/GreetingContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,10 @@
       <workItem from="1649101202717" duration="2050000" />
       <workItem from="1649103764740" duration="1060000" />
       <workItem from="1649237945689" duration="1497000" />
-      <workItem from="1649517186248" duration="22291000" />
+      <workItem from="1649517186248" duration="22717000" />
+      <workItem from="1649684627621" duration="1368000" />
+      <workItem from="1650112318329" duration="808000" />
+      <workItem from="1650199517673" duration="5493000" />
     </task>
     <task id="LOCAL-00001" summary="added HW1">
       <created>1648905383081</created>
@@ -116,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649586517200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added some CSS to second HW">
+      <created>1649591353998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649591353998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +153,7 @@
     <MESSAGE value="change CSS a little" />
     <MESSAGE value="add GitHub page" />
     <MESSAGE value="added second HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="added second HW" />
+    <MESSAGE value="added some CSS to second HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some CSS to second HW" />
   </component>
 </project>
