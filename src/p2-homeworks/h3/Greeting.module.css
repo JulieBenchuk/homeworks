@@ -1,7 +1,10 @@
 .someClass {
-
+border: 1px solid green;
+    background-color: #fbffc1;
 }
 
 .error {
     border: 1px solid red;
+    background-color: #fac3c3;
+    box-shadow: 0 0 10px red;
 }
