@@ -1,3 +1,8 @@
+.HW3 {
+    width: 240px;
+    background-color: rgba(217, 217, 217, 0.76);
+    padding: 10px;
+}
 .someClass {
     border: 1px solid #000000;
     background-color: #ddf1fd;
@@ -11,25 +16,13 @@
 }
 
 .errorMessage {
-    font-family: Dialog;
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate;
     font-size: 20px;
     width: 220px;
     color: red;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 5px;
     margin-top: 5px;
-}
-
-.totalUsers {
-    color: #919191;
-    background-color: #ffffff;
-    border: 2px dotted #919191;
-    font-weight: bolder;
-    font-size: 30px;
-    padding: 3px;
-    margin: 5px;
-    font-family: Dialog;
-    border-radius: 10px;
 }
 
 .buttonAdd {
@@ -38,6 +31,38 @@
     height: 30px;
     width: 60px;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: "Lao MN";
+}
+
+.totalAll {
+    width: 200px;
+    padding: 5px;
+    display: grid;
+    grid-template-areas:"total"
+"totalUsers";
+    justify-content: center;
+
+}
+
+.total {
+    grid-area: total;
+    font-family: "Lao MN";
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+}
+
+.totalUsers {
+    text-align: center;
+    grid-area: totalUsers;
+    color: #919191;
+    background-color: #ffffff;
+    border: 2px dotted #919191;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    font-family: Dialog;
     border-radius: 10px;
 }

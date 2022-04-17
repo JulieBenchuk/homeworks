@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="fixed props">
+    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="HW3 fixed some problems with total and input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/GreetingContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/GreetingContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <workItem from="1649684627621" duration="1368000" />
       <workItem from="1650112318329" duration="808000" />
       <workItem from="1650199517673" duration="9489000" />
-      <workItem from="1650221607978" duration="4341000" />
+      <workItem from="1650221607978" duration="7349000" />
     </task>
     <task id="LOCAL-00001" summary="added HW1">
       <created>1648905383081</created>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650212590950</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HW3 fixed some problems with total and input">
+      <created>1650226045910</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650226045910</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +195,7 @@
     <MESSAGE value="added input" />
     <MESSAGE value="added wrong input" />
     <MESSAGE value="fixed props" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed props" />
+    <MESSAGE value="HW3 fixed some problems with total and input" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3 fixed some problems with total and input" />
   </component>
 </project>
