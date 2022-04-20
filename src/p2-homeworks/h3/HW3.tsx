@@ -20,7 +20,7 @@ function HW3() {
     }
 
     return (
-        <div className={s.HW3}>
+        <div>
             <hr/>
             homeworks 3
 
