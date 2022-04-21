@@ -1,7 +1,29 @@
 .default {
+    color: #254f9c;
+    background: #ffffff;
+    border: 2px solid #254f9c;
+    margin: 3px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.default:hover {
+    color: white;
+    background: #254f9c;
 
+}
+.default:disabled {
+    opacity: 0.5;
+    cursor: no-drop;
 }
 
 .red {
-    background: red;
+    background: #ffffff;
+    border: 2px solid #e86767;
+    color: #e86767;
+    border-radius: 10px;
+    margin: 3px;
+}
+.red:hover {
+    color: #ffffff;
+    background: #e86767;
 }

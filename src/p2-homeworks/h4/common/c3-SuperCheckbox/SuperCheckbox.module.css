@@ -1,7 +1,12 @@
 .checkbox {
-
+    cursor: pointer;
+}
+.checkbox:checked {
+    content: url("https://mobila.guru/wp-content/uploads/2019/04/galochka.jpg");
 }
 
 .spanClassName {
+    color: #254f9c;
+    font-family: "Heiti SC";
 
 }
