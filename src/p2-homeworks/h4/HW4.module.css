@@ -13,6 +13,7 @@
 .testSpanError {
     color: #833c3c;
 }
+
 .inputsAndSpan {
     display: flex;
     flex-direction: column;
