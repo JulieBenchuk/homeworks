@@ -1,68 +1,52 @@
 .HW3 {
-    width: 240px;
+    border: 3px solid #254f9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
     height: 200px;
-    background-color: rgba(217, 217, 217, 0.76);
     padding: 10px;
+    background-color: rgb(169, 176, 190);
 }
+
 .someClass {
     border: 1px solid #000000;
     background-color: #ddf1fd;
     box-shadow: 0 0 5px black;
 }
 
-/*.error {
-    border: 1px solid red;
-    background-color: #fddede;
-    box-shadow: 0 0 5px red;
-}*/
-
-.errorMessage {
+.inputButton {
+    height: 90px;
     display: flex;
-    justify-content: center;
-    font-family: Copperplate;
-    font-size: 20px;
-    width: 240px;
-    color: red;
-    margin-top: 15px;
-}
-
-.buttonAdd {
-    color: white;
-    background-color: #919191;
-    height: 30px;
-    width: 60px;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 5px;
-    font-family: "Lao MN";
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .totalAll {
-    width: 240px;
-    display: grid;
-    grid-template-areas:"total"
-"totalUsers";
-    justify-content: center;
-
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 .total {
-    grid-area: total;
-    font-family: "Lao MN";
+    font-family: "Academy Engraved LET";
     font-size: 30px;
-    font-weight: bolder;
-    color: brown;
+    color: #254f9c;
 }
 
 .totalUsers {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    grid-area: totalUsers;
-    color: #919191;
+    color: #e86767;
     background-color: #ffffff;
     border: 2px dotted #919191;
     font-weight: bolder;
-    font-size: 30px;
-    padding: 5px;
-    font-family: Dialog;
+    font-size: 35px;
+    font-family: "Academy Engraved LET";
     border-radius: 10px;
 }
