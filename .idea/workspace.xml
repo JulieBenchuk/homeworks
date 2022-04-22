@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="HW2-3: change some CSS">
+    <list default="true" id="e58217fa-86d3-4036-b210-9c3cc9331507" name="Changes" comment="HW-4 is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,8 @@
       <workItem from="1650309817883" duration="615000" />
       <workItem from="1650482066757" duration="1212000" />
       <workItem from="1650483546410" duration="741000" />
-      <workItem from="1650557819216" duration="12178000" />
+      <workItem from="1650557819216" duration="12376000" />
+      <workItem from="1650602050654" duration="1647000" />
     </task>
     <task id="LOCAL-00001" summary="added HW1">
       <created>1648905383081</created>
@@ -192,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650483264084</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HW-4 is done">
+      <created>1650574773518</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650574773518</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +224,7 @@
     <MESSAGE value="HW3 fixed some problems with total and input" />
     <MESSAGE value="HW3: change some CSS" />
     <MESSAGE value="HW2-3: change some CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW2-3: change some CSS" />
+    <MESSAGE value="HW-4 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-4 is done" />
   </component>
 </project>

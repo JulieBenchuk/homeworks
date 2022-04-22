@@ -10,11 +10,11 @@
     box-shadow: 0 0 5px black;
 }
 
-.error {
+/*.error {
     border: 1px solid red;
     background-color: #fddede;
     box-shadow: 0 0 5px red;
-}
+}*/
 
 .errorMessage {
     display: flex;

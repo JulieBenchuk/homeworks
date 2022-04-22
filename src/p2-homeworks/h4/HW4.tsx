@@ -25,17 +25,19 @@ function HW4() {
             homeworks 4
 
             <div className={s.column}>
-                <SuperInputText
-                    value={text}
-                    onChangeText={setText}
-                    onEnter={showAlert}
-                    error={error}
-                    spanClassName={s.testSpanError}
-                />
+                <div className={s.inputsAndSpan}>
+                    <SuperInputText
+                        value={text}
+                        onChangeText={setText}
+                        onEnter={showAlert}
+                        error={error}
+                        spanClassName={s.testSpanError}
+                    />
 
-                <SuperInputText
-                    className={s.blue} // проверьте, рабоет ли смешивание классов - NO
-                />
+                    <SuperInputText
+                        className={s.blue} // проверьте, рабоет ли смешивание классов - NO
+                    />
+                </div>
 
                 {/*----------------------------------------------------*/}
 
