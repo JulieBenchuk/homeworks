@@ -1,12 +1,12 @@
 .HW3 {
-    border: 3px solid #254f9c;
+    border: 1px solid #254f9c;
+    background: #9e8ff8;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 290px;
     height: 200px;
     padding: 10px;
-    background-color: rgb(169, 176, 190);
 }
 
 .someClass {
@@ -34,7 +34,7 @@
 .total {
     font-family: "Academy Engraved LET";
     font-size: 30px;
-    color: #254f9c;
+    color: #ffffff;
 }
 
 .totalUsers {
@@ -42,7 +42,7 @@
     width: 30px;
     height: 30px;
     text-align: center;
-    color: #e86767;
+    color: #e36870;
     background-color: #ffffff;
     border: 2px dotted #919191;
     font-weight: bolder;

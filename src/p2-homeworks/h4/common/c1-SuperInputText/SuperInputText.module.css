@@ -1,22 +1,19 @@
 .superInput {
 
-    border: 2px solid #47b6e5;
-    box-shadow: 0 0 5px #254f9c;
-    background-color: #ece9d2;
+    border: 2px solid #230f8d;
+    box-shadow: 0 0 5px #ffffff;
+    background-color: #c3e0f8;
     outline: none;
-    margin: 3px;
 }
 
 .errorInput {
-    border: 3px solid #8d2424;
+    border: 2px solid #8d2424;
     background: #eca7a7;
     box-shadow: 0 0 5px #8d2424;
     outline: none;
-    margin: 3px;
 }
 
 .error {
     color: #8d2424;
-    margin: 3px;
     font-family: Copperplate;
 }
