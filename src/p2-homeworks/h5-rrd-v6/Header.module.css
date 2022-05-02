@@ -1,0 +1,20 @@
+.block_header {
+    background-color: #73e573;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lao MN";
+}
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+.navlink:hover {
+    color: #73e573;
+    background-color: white;
+    font-weight: bolder;
+}
+.navlink:active {
+    color: #ffffff;
+    background-color: #468a46;
+}
