@@ -14,12 +14,15 @@ function Affair(props: AffairPropsType) {
     }// need to fix
 
     return (
-        <div className={classes.affairOneButtonOne}>
+        <div className={classes.affairOneButton}>
             <div className={classes.affairOne}>
                 <div>
                     {props.affair.name}
                 </div>
-                <div>
+                <div className={props.affair.priority === "high" ? classes.highPriority
+                    : props.affair.priority === "middle" ? classes.middlePriority
+                        : props.affair.priority === "low" ? classes.lowPriority
+                            : ""}>
                     {props.affair.priority}
                 </div>
             </div>

@@ -4,7 +4,7 @@ import React from 'react'
 function JuniorPlus() {
     return (
         <div>
-            next homework (12...)
+            next homeworks (12...)
             {/*<HW12/>*/}
 
         </div>

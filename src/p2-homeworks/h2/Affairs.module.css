@@ -38,7 +38,7 @@
     color: cornflowerblue;
 }
 
-.affairOneButtonOne {
+.affairOneButton {
     display: flex;
     justify-content: space-between;
     color: cornflowerblue;
@@ -53,6 +53,15 @@
     padding-right: 5px;
 
 }
+.highPriority {
+    color: #ea6262;
+}
+.middlePriority {
+    color: cornflowerblue;
+}
+.lowPriority {
+    color: #73e573;
+}
 
 .buttonDeleteOne button {
     width: 20px;
@@ -62,4 +71,8 @@
     color: cornflowerblue;
     font-size: 15px;
     background-color: rgb(255, 244, 120);
+}
+.buttonDeleteOne button:hover {
+    color: red;
+    font-weight: bolder;
 }
