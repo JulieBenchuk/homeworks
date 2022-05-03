@@ -7,8 +7,8 @@ function Header() {
         <div className={s.header}>
             <ul className={s.menu}>
                 <li>
-                    <span className={s.level}>LEVEL</span>
-                    <ul>
+                    <label className={s.level}>LEVEL</label>
+                     <ul>
                         <li>
                             <NavLink to='/pre-junior'>
                                 Pre-Junior
