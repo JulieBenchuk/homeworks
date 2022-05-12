@@ -1,0 +1,25 @@
+.hw6 {
+    height: 120px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.all {
+    display: flex;
+    padding: 10px;
+}
+.editableSpan {
+    background-color: #230f8d;
+    color: white;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    font-style: italic;
+    padding: 1px;
+}
+.editableSpan:hover{
+    background-color: #396ccc;
+    cursor: text;
+}
