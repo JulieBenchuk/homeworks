@@ -14,14 +14,11 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         ...restProps
     }
 ) => {
-    const [checked, setChecked] = useState<boolean>(false)
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
         // onChange, onChangeOption
         let newValue = e.currentTarget.name
         onChangeOption(newValue)
         console.log(newValue)
-       /* setChecked(!checked)
-       */
     }
 
 
@@ -34,7 +31,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 onChange={onChangeCallback}
                 checked={value===o}
 
-
                 // name, checked, value, onChange
             />
             {o}
@@ -42,9 +38,9 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     )) : []
 
     return (
-        <>
+        <div>
             {mappedOptions}
-        </>
+        </div>
     )
 }
 

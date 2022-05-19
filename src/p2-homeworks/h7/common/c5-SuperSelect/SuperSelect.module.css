@@ -1,5 +1,13 @@
-.selectItem {
-    width: 50px;
+.select {
+    appearance: none;
+    width: 100px;
     height: 20px;
+    color: greenyellow;
     background-color: darkgrey;
+    text-align: center;
+    font-weight: bold;
+}
+.select:hover {
+    background-color: greenyellow;
+    color: darkgrey;
 }
