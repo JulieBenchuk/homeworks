@@ -1,3 +1,15 @@
 .radio {
-
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid fuchsia;
+}
+.radio:checked {
+    background-color: greenyellow;
+    border: 2px double #884fc2;
+}
+.radio:hover {
+    background-color: fuchsia;
+    border: 1px solid greenyellow;
 }
