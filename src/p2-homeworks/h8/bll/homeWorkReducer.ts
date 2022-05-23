@@ -1,7 +1,7 @@
 import { InitialStateType, UserType } from "../HW8"
 type ActionType = {
     type: 'sort' | 'check'
-    payload: any
+    payload: 'up' | 'down' | number
 }
 
 export const homeWorkReducer = (state: InitialStateType, action: ActionType): InitialStateType => { // need to fix any
