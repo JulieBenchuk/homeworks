@@ -1,7 +1,8 @@
 import React from 'react'
+import { InitialStateType } from '../../HW8'
 import {homeWorkReducer} from '../homeWorkReducer'
 
-let initialState: any[] // need to fix any
+let initialState: InitialStateType
 
 beforeEach(() => {
     initialState = [
@@ -24,7 +25,7 @@ test('sort name up', () => {
 test('sort name down', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'down'})
     expect(newState.length).toBe(6)
-    expect(newState[5]).toBe('Александр')
+    expect(newState[5].name).toBe('Александр')
     expect(newState[5]._id).toBe(1)
 
 })
