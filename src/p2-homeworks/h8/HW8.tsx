@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import s from "./HW8.module.css"
 
 export type UserType = {
     _id: number
@@ -23,13 +24,14 @@ function HW8() {
 
     // need to fix any
     const finalPeople = people.map((p: UserType) => (
-        <div key={p._id}>
-            {p.name}: {p.age}
+        <div key={p._id} className={s.personItem}>
+            <div className={s.name}>{p.name}</div>
+            <div className={s.age}>{p.age}</div>
         </div>
     ))
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
-    const sortDown = ()=>setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
     const checkAge = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
 
 
@@ -37,14 +39,19 @@ function HW8() {
         <div>
             <hr/>
             homeworks 8
-
-            {/*should work (должно работать)*/}
-            {finalPeople}
-
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
-            <div><SuperButton onClick={checkAge}>check age</SuperButton></div>
-
+            <div className={s.HW8}>
+                {/*should work (должно работать)*/}
+                <div className={s.title}>
+                    <span>name</span>
+                    <span>age</span>
+                </div>
+                {finalPeople}
+                <div className={s.buttonsBlock}>
+                    <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
+                    <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+                    <div><SuperButton onClick={checkAge}>check age</SuperButton></div>
+                </div>
+            </div>
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
