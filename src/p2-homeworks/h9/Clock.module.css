@@ -32,12 +32,11 @@
     padding: 10px;
     text-align: center;
     font-family: Raanana;
-    border: 2px solid #bfff78;
+    border: 4px solid #bfff78;
     font-size: 60px;
     margin-top: 70px;
     color: white;
     border-radius: 20%;
-
 }
 
 .time:hover {
