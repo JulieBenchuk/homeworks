@@ -1,0 +1,56 @@
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px red;
+}
+.clockInside{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px dotted red;
+    border-radius: 50%;
+
+}
+
+.buttons {
+    margin-bottom: 20px;
+
+}
+
+.time {
+    padding: 10px;
+    text-align: center;
+    font-family: Raanana;
+    border: 2px solid #bfff78;
+    font-size: 60px;
+    margin-top: 70px;
+    color: white;
+    border-radius: 20%;
+
+}
+
+.time:hover {
+    box-shadow: 0 0 10px #bfff78;
+
+}
+
+.date {
+    font-family: Raanana;
+    color: red;
+    background-color: #2f2f2f;
+    padding: 10px;
+    box-shadow: 0 0 10px red;
+    border-radius: 10%;
+
+}
