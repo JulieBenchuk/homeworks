@@ -9,13 +9,7 @@ type ResponseType = {
 export const api = {
     request(checked: boolean) {
         const promise = axios.post<ResponseType>("https://neko-cafe-back.herokuapp.com/auth/test/", {success: checked})
-            .then((response) => {
-                console.log(response.data)
-            })
-            .catch((error) => {
-                console.log({...error})
-                console.log(error.response ? error.response.data.errorText : error.message)
-            })
+        return promise
     }
 }
 
